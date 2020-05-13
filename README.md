@@ -13,7 +13,7 @@ kubectl create -f grafana-datasource-config.yml
 
 kubectl create -f grafana-deployment.yml
 
-Log in to prometheus on port 9090 ( you migth want to avoid exposing prometheus as it doesn't come with any authentication mechanism )
+Log in to prometheus on port 9090 ( you migth want to avoid exposing prometheus outside the cluser as it doesn't come with any authentication mechanism )
 
 Log in to grafana on port 3000
 
